@@ -20,7 +20,8 @@
 
 - **메서드**:
   - `Attack(GameCharacter target)`: 대상에게 공격력만큼 데미지를 입힘
-  - `TakeDamage(int damage)`: 데미지를 받아 CurrentHp 감소. 0 이하로 떨어지지 않음
+  - `TakeDamage(int damage)`: 데미지를 받아 CurrentHp 감소. 
+	- 0 이하로 떨어지지 않음
   - `ShowStatus()`: 캐릭터 상태 출력
 
 ### 테스트 코드
